@@ -6,12 +6,100 @@
   height: 40vmin;
   pointer-events: none;
 }
+.mb-3{
+  background-color: #dae9b6 !important;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.BrandNameSize{
+  font-size: xxx-large !important;
+}
+.NavbarAnchor1{
+  text-decoration: none;
+  margin-right: 2vw;
+  color: black;
+}
+.NavbarAnchor2{
+  text-decoration: none;
+  color: black;
+}
+.NavBarAlterAfterSize{
+  display: none !important;
+  visibility: hidden !important;
+}
+.NavBaralterMain{
+  width:100vw;
+  text-align: center;
+  display: block;
+  visibility: visible;
+}
+.navBarAlterCenter{
+    display: flex !important;
+    flex-wrap: inherit !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+}
+.navBarBootBtn1{
+  height: 50px;
+  width: 184px;
+  border: 2px solid;
+  border-radius: 50px;
+  color: rgb(236, 236, 236) !important;
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+}
+.navBarBootBtn2{
+  height: 50px;
+  width: 184px;
+  border: 2px solid;
+  border-radius: 50px;
+  color: black;
+  text-align: center;
+  background-color: white;
+}
+@media screen and (max-width:500px){
+  .BrandNameSize{
+    font-size: x-large !important;
+  }
+  .NavBarAlterAfterSize{
+      font-size: xx-small !important;
+  }
+}
+@media screen and (max-width:750px){
+  .NavBarAlterAfterSize{
+    display: block !important;
+    visibility: visible !important;
+  }
+  
+  .NavBaralterMain{
+    display: none;
+    visibility: hidden;
+  }
+  .navBarBootBtn1{
+    height: 50px;
+    width: 284px;
+    border: 2px solid;
+    border-radius: 50px;
+    color: rgb(236, 236, 236) !important;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+  }
+  .navBarBootBtn2{
+    height: 50px;
+    width: 284px;
+    border: 2px solid;
+    border-radius: 50px;
+    color: black;
+    text-align: center;
+    background-color: white;
+  }
+}
+
+
 
 .App-header {
   background-color: #282c34;
@@ -32,7 +120,920 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
+.footer {
+  display: flex;
+  /* justify-content: space-around; */
+  margin-top: 70px;
+  background-color:black;
+  border-bottom-right-radius:9px;
+  border-top-left-radius:9px;
+}
+.footerText{
+  color:white;
+  padding-left: 9vw;
+}
+.footerListMain{
+  padding-left: 22%;
+}
+.footerUListMain{
+  list-style:none;
+}
+.footerListMainItems{
+  padding: 5px;
+}
+.footerListMainAnchor{
+  text-decoration:none; 
+  color:white;
+}
+.footer.com {
+  min-height: 100vh;
+}
+
+.footerUp {
+  margin-top: 35px;
+}
+
+.fdiv {
+  padding-top: 20px;
+  margin-top: 20px;
+  height: 150px;
+  width: 85vw;
+  background-color: #61dafb;
+  margin: auto;
+}
+
+.fdivdesign {
+  background-color: black;
+  color: azure;
+  width: 22vw;
+  height: 32px;
+  position: relative;
+}
+
+.fdivdesign1 {
+  background-color: black;
+  color: azure;
+  width: 22vw;
+  height: 50px;
+  position: relative;
+}
+
+.border::before {
+  content: "";
+  position: absolute;
+  background: transparent;
+  width: 50px;
+  height: 50px;
+  top: 5vh;
+  top: ovh;
+  border-top-left-radius: 15px;
+  height: 50px;
+  box-shadow: 15 -15 0 15px;
+  box-shadow: -2px -15px 0 2px #dae9b6;
+}
+
+.border1::before {
+  background: transparent;
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 0vh;
+  left: 13vw;
+  border-top-left-radius: 15px;
+  box-shadow: -12px -24px 0 -4px #dae9b6;
+}
+
+.border2::before {
+  background: transparent;
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  bottom: 0vh;
+  right: 41vw;
+  border-bottom-right-radius: 15px;
+  box-shadow: 13px 1px 0 -1px #dae9b6;
+}
+
+.border3::before {
+  background: transparent;
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  bottom: 33vh;
+  right: 0vw;
+  border-bottom-right-radius: 15px;
+  box-shadow: 13px 1px 0 -1px #dae9b6;
+}
+
+.wrapper {
+  max-height: 223px;
+  /* border: 1px solid black; */
+  display: flex;
+  overflow-x: auto;
+  /* justify-content: center; */
+}
+
+.wrapper::-webkit-scrollbar {
+  width: 0;
+}
+
+.wrapper .item {
+  min-width: 163px;
+  height: 208px;
+  line-height: 110px;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  margin-right: 15px;
+  border-radius: 11px;
+}
+
+.cardOneMain {
+  position: relative;
+  background-color: #dae9b6;
+  height: 85vh;
+  width: 85vw;
+  margin: auto;
+  border-radius: 15px;
+}
+
+.cardOneImg {
+  width: 85vw;
+  height: 85vh;
+  border-radius: 15px;
+}
+
+.cardOneSmallBoxA {
+  position: absolute;
+  background-color: #dae9b6;
+  color: #dae9b6;
+  top: 0vh;
+  width: 13vw;
+  height: 5vh;
+  border-bottom-right-radius: 15px;
+}
+
+.cardOneSmallBoxB {
+  position: absolute;
+  background-color: #dae9b6;
+  color: #dae9b6;
+  right: 0vw;
+  width: 41vw;
+  height: 33vh;
+  bottom: 0vh;
+  border-top-left-radius: 15px;
+}
+
+.cardOneText {
+  color: black;
+  padding-top: 2vh;
+  padding-left: 6vw;
+  font-size: xx-large;
+}
+
+.cardOneP {
+  font-size: small;
+  color: rgb(135, 125, 125);
+}
+
+.cardOneButtonOne {
+  height: 31px;
+  width: 106px;
+  border-radius: 50px;
+  color: white;
+  border: 2px solid black;
+  background-color: black;
+  cursor: pointer;
+}
+
+.cardOneButtonTwo {
+  margin-left: 2vw;
+  height: 31px;
+  width: 106px;
+  border-radius: 50px;
+  color: black;
+  border: 2px solid black;
+  cursor:pointer;
+  background-color: #dae9b6;
+}
+.cardOneBG{
+  background-color: #dae9b6;
+}
+.cardTwoBG{
+  margin-top:70px; 
+  background-color:#dae9b6;
+}
+.cardTwoWrap{
+  height: 85vh;
+  width: 85vw;
+  border: 2px solid black;
+  margin: auto;
+  border-radius: 15px;
+  position:relative;
+  background-color:white;
+}
+.cardTwoH2{
+  margin: 5vw;
+  font-size: 32px;
+  margin-bottom: 5vw;
+}
+.cardTwoMain{
+  display: flex; 
+  flex-direction: row;
+}
+.cardTwoMainOne{
+  height: 55vh;
+  width: 44vw;
+  margin-left: 4vw;
+}
+.cardTwoMainOneA{
+  height: 54vh;
+  border-radius: 15px;
+  position: absolute;
+  background-color: #8dc8d1;
+  width: 23vw;
+  left: 3vw;
+  bottom: 3vh;         
+}
+.cardTwoMainOneB{
+  position: absolute;
+  right: 38vw;
+  top: 28vh;
+  height: 26vh;
+  border-radius: 15px;
+  background-color: #b5c78a;
+  width: 20vw;
+}
+.cardTwoMainOneC{
+  bottom: 3vh;
+  position: absolute;
+  right: 38vw;
+  background-color: #c8d5ef;
+  border-radius: 15px;
+  height: 26vh;
+  width: 20vw;
+}
+.cardTwoMainTwo{
+  height: 54vh;
+  width: 37vw;
+  padding-left: 8vw;
+  margin-top: 0vh;
+}
+.cardTwoMainTwoH4{
+  color: #7a7070;
+}
+.cardTwoMainP{
+  width: fit-content;
+  color: #877d7d;
+}
+.cardTwoMainTwoButtonOne{
+  height: 31px;
+  width: 106px;
+  border-radius: 50px;
+  color: white;
+  border: 2px solid black;
+  background-color: black;
+  cursor: pointer;
+}
+.cardTwoMainTwoButtonTwo{
+  margin-left: 2vw;
+  height: 31px;
+  width: 106px;
+  border-radius: 50px;
+  color: black;
+  border: 2px solid black;
+  cursor: pointer;
+  background-color: white;
+}
+.card3Main{
+  position: relative;
+  background-color: #dae9b6;
+  height: 85vh;
+  width: 85vw;
+  margin: auto;
+  border-radius: 15px;
+  margin-top: 70px;
+}
+.card3MainWrap{
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  border-radius: 15px;
+}
+.card3MainWrap1{
+  height: 80vh;
+  width: 39vw;
+  padding-left: 90px;
+  padding-top: 9vh;
+}
+.card3MainWrap1A{
+  display: flex;
+  flex-direction: row;
+  padding-top: 3vh;
+}
+.card3MainWrapCountingFirst{
+  height: 20px;
+  width: 20px;
+  border: 2px solid white;
+  border-radius: 50%;
+  text-align: center;
+  color: black;
+  background-color: white;
+}
+.card3MainWrapCountingOthers{
+  height: 20px;
+  width: 20px;
+  border: 2px solid #cbbcbc80;
+  border-radius: 50%;
+  text-align: center;
+  color: #cbbcbc80;
+}
+.card3MainTextOne{
+  padding-left: 6px;
+  font-size: xx-Large;
+  color: white;
+}
+.card3MainTextOthers{
+  padding-left: 6px;
+  font-size: xx-Large;
+  color: #cbbcbc80;
+}
+.card3MainWrap2{
+  height: 80vh;
+  width: 40vw;
+  text-align: center;
+}
+.card3MainImg{
+  padding-top: 8vh;
+}
+
+
+.card3AlterMain{
+  background-color: #2a2462; 
+  height: 85vh;
+  width: 85vw; 
+  margin: auto; 
+  border-radius: 15px;
+  display: none;
+  visibility: hidden;
+}
+.card3AlterMain1{
+  display: flex;
+  flex-direction: row;
+  padding-left: 3vh;
+  display: none;
+  visibility: hidden;
+}
+.card3AlterMain1A{
+  padding-top: 3vh;
+  padding-left: 6vh;
+  display: none;
+  visibility: hidden;
+}
+.card3AlterMainCounting{
+  height: 40px;
+  width: 40px;
+  border: 2px solid white;
+  border-radius: 50%;
+  text-align: center;
+  color: black;
+  background-color: white;
+  display: none;
+  visibility: hidden;
+}
+.card3AlterMainCountingOthers{
+  height: 40px;
+  width: 40px;
+  border: 2px solid white;
+  border-radius: 50%;
+  text-align: center;
+  color: white;
+  display: none;
+  visibility: hidden;
+}
+.card3AlterCountingAlign{
+  padding-top:10px;
+  display: none;
+  visibility: hidden;
+}
+.card3AlterH6{
+  padding-left: 9vh;
+  font-size:30px;
+  margin-top:18px;
+  font-weight:500;
+  color:white;
+  display: none;
+  visibility: hidden;
+}
+.card3AlterImg{
+  padding-left: 9vh;
+  margin-top: -48px;
+  display: none;
+  visibility: hidden;
+}
+
+
+.cardFourMargin{
+  margin-top: 70px;
+}
+.cardFourMain{
+  width: 85vw;
+  height: 18vh;
+  border-radius: 15px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  background-color: white;
+}
+.cardFourText{
+  padding-top: 6vh;
+  font-size: xx-Large;
+  position: absolute;
+  padding-left: 3vw;
+}
+.cardFourArrow{
+  padding-top: 4vh;
+  position: absolute;
+  left: 41vw;
+}
+.cardFourArrowSize{
+  font-size: 40px;
+}
+.cardFourBTN{
+  padding-top: 7vh;
+  position: absolute;
+  right: 3vw;
+}
+.cardFourBTN1{
+  font-size: small;
+  height: 31px;
+  width: 106px;
+  border-radius: 50px;
+  color: white;
+  border: 2px solid black;
+  background-color: black;
+  cursor: pointer;
+}
+.cardFourBTN2{
+  margin-left: 2vw;
+  height: 31px;
+  width: 106px;
+  border-radius: 50px;
+  color: black;
+  border: 2px solid black;
+  cursor: pointer;
+  background-color: white;
+}
+
+
+.FAQSmain{
+  position: relative;
+  background-color: #dae9b6;
+  height: 85v;
+  width: 85vw;
+  margin: auto;
+  border-radius: 15px;
+  margin-top: "70px";
+}
+.FAQSwrap{
+  display: flex; 
+  flex-direction: row; 
+  border-radius: 15px;
+}
+.FAQSwrap1{
+  height: auto; 
+  width: 39vw; 
+  padding-left: 90px; 
+  padding-top: 9vh;
+}
+.FAQSText{
+  font-size:38px;
+  font-family: inherit;
+}
+.FAQSaccordion{
+  height: fit-content; 
+  width: 40vw; 
+  text-align: center; 
+  padding-top: 5vh;
+}
+.sliderMain{
+  background-color: #dae9b6;
+}
+.sliderHW{
+  padding-left: 7vw;
+  margin-top: 85px;
+  margin-top: 85px;
+  padding-bottom: 85px;
+}
+.sliderP1{
+  color: rgb(135, 125, 125);
+}
+.sliderButon1{
+  background-color: black;
+  color: white;
+  height: 31px;
+  width: 106px;
+  cursor: pointer;
+  border-radius: 20px;
+  border: 2px solid black;
+  font-size:small;
+}
+.sliderItem{
+  height: 176px;
+  width: 91%;
+  border-radius: 16px;
+  border: 8px solid white;
+}
+.sliderimg1{
+  border-radius: 11px;
+  width:100%;
+  height:100%;
+}
+.sliderP2{
+  margin-top: -89px; 
+  padding-right: 112px;
+}
+
+
+
+
+@media screen and (max-width: 852px) {
+
+  .navBarBootBtn1{
+    display: block;
+    visibility: visible;
+  }
+  .navBarBootBtn2{
+    display: block;
+    visibility: visible;
+  }
+
+ 
+  .cardOneSmallBoxB {
+    width: 65vw;
+  }
+  .border2::before{
+    right: 65vw;
+  }
+  .cardOneSmallBoxA{
+  width: 40vw;
+  }
+  .border1::before{
+  left: 40vw;
+  }
+  .cardTwoMain{
+  flex-direction: column;
+  }
+  .cardTwoWrap{
+  height: 136vh;
+  }
+  .cardTwoH2{
+  font-size: 30px;
+  }
+  .cardTwoMainOneA{
+  left: 6vw;
+  width: 51vw;
+  top: 28vh;
+  bottom: none;
+  }
+  .cardTwoMainOneB{
+  right: 6vw;
+  }
+  .cardTwoMainOneC{
+  bottom: none;
+  top: 56vh;
+  right: 6vw;
+  }
+  .cardTwoMainP{
+    width: 71vw;
+  }
+  .cardTwoMainButton{
+    width: max-content;
+  }
+  .cardTwoMainTwo {
+  margin-top: 11vh;
+  }
+  .card3Main{
+    display: none;
+    visibility: hidden;
+  }
+  .card3MainWrap{
+    display: none;
+    visibility: hidden;
+  }
+  .card3MainWrap1{
+    display: none;
+    visibility: hidden;
+  }
+  .card3MainWrap1A{
+    display: none;
+    visibility: hidden;
+  }
+  .card3MainWrapCountingFirst{
+    display: none;
+    visibility: hidden;
+  }
+  .card3MainWrapCountingOthers{
+    display: none;
+    visibility: hidden;
+  }
+  .card3MainTextOne{
+    display: none;
+    visibility: hidden;
+  }
+  .card3MainTextOthers{
+    display: none;
+    visibility: hidden;
+  }
+  .card3MainWrap2{
+    display: none;
+    visibility: hidden;
+  }
+  .card3MainImg{
+    display: none;
+    visibility: hidden;
+  }
+
+.card3AlterMain{
+  background-color: #2a2462; 
+  height: 85vh;
+  width: 85vw; 
+  margin: auto; 
+  border-radius: 15px;
+  display: block;
+  visibility: visible;
+}
+.card3AlterMain1{
+  display: flex !important;
+  flex-direction: row;
+  padding-left: 3vh;
+  display: block;
+  visibility: visible;
+}
+.card3AlterMain1A{
+  padding-top: 3vh;
+  padding-left: 6vh;
+  display: block;
+  visibility: visible;
+}
+.card3AlterMainCounting{
+  height: 40px;
+  width: 40px;
+  border: 2px solid white;
+  border-radius: 50%;
+  text-align: center;
+  color: black;
+  background-color: white;
+  display: block;
+  visibility: visible;
+}
+.card3AlterMainCountingOthers{
+  height: 40px;
+  width: 40px;
+  border: 2px solid white;
+  border-radius: 50%;
+  text-align: center;
+  color: white;
+  display: block;
+  visibility: visible;
+}
+.card3AlterCountingAlign{
+  padding-top:10px;
+  display: block;
+  visibility: visible;
+}
+.card3AlterH6{
+  padding-left: 9vh;
+  font-size:30px;
+  margin-top:18px;
+  font-weight:500;
+  color:white;
+  display: block;
+  visibility: visible;
+}
+.card3AlterImg{
+  padding-left: 9vh;
+  margin-top: -48px;
+  display: block;
+  visibility: visible;
+}
+
+
+  .cardFourText{
+    padding-top: 2vh;
+    font-size: 35px;
+    font-weight: 600;
+    padding-left: 10vw;
+  }
+  .cardFourArrowSize{
+  font-size: 0;
+  }
+  .cardFourBTN{
+    padding-top: 9vh;
+    left: 10vw;
+  }
+  .cardFourBTN1{
+    height: 41px;
+  }
+  .cardFourBTN2{
+    height: 41px;
+  }
+
+
+  .footerListMain{
+    padding-left: 12%;
+  }
+  .footerText{
+    padding-left: 3vw;
+  }
+  .FAQSwrap{
+    flex-direction: column; 
+  }
+  /* .FAQSwrap1{
+    height: 15vh; 
+  } */
+  .FAQSmain{
+    width: 51vw;
+  }
+  .FAQSaccordion{
+    height: fit-content;
+  }
+  .cardOneButtonOne{
+    font-size: small;
+  }
+  .cardOneButtonTwo{
+    font-size: small;
+  }
+  .cardTwoMainTwoButtonOne{
+    font-size: small;
+  }
+}  
+
+@media screen and (max-width: 502px){
+  .cardOneImg {
+    width: 85vw;
+    height: 44vh;
+    border-radius: 42px;
+  }
+  .cardOneSmallBoxB {
+    width: 100%;
+    bottom: 5vh;
+    background-color: white;
+  }
+  .cardOneSmallBoxA{
+    position: absolute;
+    background-color:transparent;
+    top: 0vh;
+    width: 13vw;
+    height: 5vh;
+    border-bottom-right-radius: 15px;
+  }
+  .border::before {
+    box-shadow: none;
+  }
+  .border1::before {
+    box-shadow: none;
+  }
+  .border2::before{
+    box-shadow: none;
+  }
+  .border3::before {
+    box-shadow: none;
+  }
+  .cardOneText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: larger;
+  }
+  .cardOneButtonOne{
+    height: 50px;
+    width: 296px;
+    font-size: small;
+  }
+  .cardOneButtonTwo{
+    margin-left: 0vw;
+    height: 50px;
+    margin-top: 15px;
+    width: 296px;
+    background-color: white;
+    font-size: large;
+  }
+  .cardOneBG{
+    background-color: white;
+  }
+  .cardOneMain{
+    background-color: white;
+  }
+  .cardTwoWrap{
+  height: 184vh;
+  border: 2px;
+  }
+  .cardTwoH2{
+  font-size: 24px;
+  }
+  .cardTwoMain{
+    margin-top: 80%;
+  }
+  .cardTwoMainOneA{
+  left: 6vw;
+  width: 73vw;
+  top: 28vh;
+  bottom: none;         
+  }
+  .cardTwoMainOneB{
+  top: 85vh;
+  right: auto;
+  width: 35vw;
+  }
+  .cardTwoMainOneC{
+    bottom: none;
+    top: 85vh;
+    right: 6vw;
+    width: 35vw;
+  }
+  .cardTwoMainP{
+    width: 71vw;
+  }
+  .cardTwoMainButton{
+    display: flex;
+    flex-direction: column;
+  }
+  .cardTwoMainTwoButtonOne{
+    height: 50px;
+    width: 70vw;
+    font-size: large;
+  }
+  .cardTwoMainTwoButtonTwo{
+    margin-top: 9px;
+    height: 50px;
+    width: 70vw;
+    font-size: large;
+    margin-left: 0px;
+  }
+  .card3AlterH6{
+    padding-left: 10%;
+    font-size: 20px;
+  }
+  .card3AlterImg{
+    padding-top: 4%;
+    padding-left: 10%;
+  }
+  .card3AlterMain1{
+    padding-left: 4%;
+  }
+  .card3AlterMain1A{
+    padding-left: 5%;
+  }
+  .cardFourMain{
+    width: 85vw;
+    height: 30vh;
+  }
+  .cardFourText{
+    padding-top: 1vh;
+    font-size: 43px;
+    font-weight: 500;
+    padding-left: 10%;
+    margin-bottom: 3vh;
+  }
+  .cardFourBTN{
+    padding-top: 15vh;
+    left: 7%;
+  }
+  .cardFourBTN1{
+    height: 50px;
+    width: 284px;  
+    font-size: large;
+  }
+  .cardFourBTN2{
+    margin-left: 0;
+    height: 50px;
+    width: 283px;
+    margin-top: 2vh;
+    font-size: large;
+  }
+  .footer {
+    flex-direction: column-reverse;
+    margin-top: none;
+  }
+  .footerText {
+    padding-left: 14vw;
+ }
+ .footerListMain {
+  padding-left: 1.3vw;
+ }
+ .FAQSmain{
+  margin: 0;
+ }
+ .MuiIconButton-edgeEnd {
+  margin-right: 13px !important;
+}
+}    
